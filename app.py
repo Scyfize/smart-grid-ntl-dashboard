@@ -4,7 +4,7 @@ import plotly.express as px
 
 # Konfigurasi Halaman Dasar
 st.set_page_config(page_title="Smart Grid NTL Dashboard", layout="wide")
-st.title("⚡ Smart Grid: Non-Technical Loss (NTL) Analytics Dashboard")
+st.title("Smart Grid: Non-Technical Loss (NTL) Analytics Dashboard")
 st.markdown("Dashboard ini menyajikan *business insights* berdasarkan pemodelan Machine Learning (Isolation Forest) dan Graph Analytics (NetworkX).")
 
 # 1. LOAD DATA & CLEANING
